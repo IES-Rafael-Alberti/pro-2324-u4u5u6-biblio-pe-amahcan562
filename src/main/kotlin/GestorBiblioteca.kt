@@ -5,6 +5,7 @@ class GestorBiblioteca (
     val registroPrestamos: MutableList<Libro> = mutableListOf()
 ) {
 
+    //No he conseguido modificar agregrLibro() para que muestre el nuevo ID.
 
     fun agregarLibro(libro: Libro) {
         catalogo.add(libro)

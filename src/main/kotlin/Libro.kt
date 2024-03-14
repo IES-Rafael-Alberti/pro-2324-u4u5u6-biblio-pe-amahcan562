@@ -3,7 +3,7 @@ package org.pebiblioteca
 import java.util.UUID;
 
 data class Libro(
-    val id: String,
+    var id: String,
     val titulo: String,
     val autor: String,
     val anioPublicacion: Int,

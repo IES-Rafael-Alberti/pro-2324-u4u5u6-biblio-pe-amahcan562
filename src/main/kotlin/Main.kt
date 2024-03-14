@@ -18,6 +18,12 @@ fun main() {
     biblioteca.agregarLibro(libro2)
     biblioteca.agregarLibro(libro3)
 
+    println("------------------------------------------------")
+
+    println(libro1.toString())
+
+    println("------------------------------------------------")
+
     biblioteca.prestar(libro1)
     biblioteca.prestar(libro1)
     biblioteca.devolver(libro1)
