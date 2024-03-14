@@ -8,7 +8,7 @@ data class Libro(
     val autor: String,
     val anioPublicacion: Int,
     val tematica: String,
-    val estado: EstadoLibro = EstadoLibro.DISPONIBLE
+    var estado: EstadoLibro = EstadoLibro.DISPONIBLE
 )
 {
     init {
@@ -20,6 +20,6 @@ data class Libro(
     }
 
     override fun toString(): String {
-        return "Id: $id, titulo: $titulo, autor: $autor, anioPublicacion: $anioPublicacion, tematica: $tematica', estado: $estado)"
+        return "Libro -> Id: $id, titulo: $titulo, autor: $autor, anioPublicacion: $anioPublicacion, tematica: $tematica', estado: $estado)"
     }
 }
