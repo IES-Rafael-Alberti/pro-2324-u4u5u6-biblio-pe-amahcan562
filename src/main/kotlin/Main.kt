@@ -37,4 +37,9 @@ fun main() {
 
     biblioteca.mostrarEstadoLibros()
 
+    println("------------------------------------------------")
+    println("------------------------------------------------")
+
+    val usuario1 = Usuario(1, "Paco")
+    val usuario2 = Usuario(2, "Mario")
 }

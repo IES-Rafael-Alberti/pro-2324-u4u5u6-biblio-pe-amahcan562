@@ -17,7 +17,7 @@ class GestorBiblioteca (
         println("-- Libro ${libro.titulo} eliminado del catálogo --")
     }
 
-    fun prestar(libro: Libro) {
+    open fun prestar(libro: Libro) {
         if (catalogo.contains(libro) && libro.estado == EstadoLibro.DISPONIBLE) {
             libro.estado = EstadoLibro.PRESTADO
             catalogo.remove(libro)
